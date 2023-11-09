@@ -65,6 +65,7 @@ food_stuff_tp = ('banana', 'apple', 'peach', 'lemon', 'mango', 'tomato', 'cucumb
 food_lis = list(food_stuff_tp)
 food_lis.pop(len(food_stuff_tp) // 2)
 print(food_lis)
+print(len(food_stuff_tp) // 2)
 
 # 1. Slice out the first three items and the last three items from food_staff_lt list
 
@@ -85,7 +86,3 @@ del food_stuff_tp
 nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 print('Estonia' in nordic_countries)
 print('Iceland' in nordic_countries)
-
-
-
-
