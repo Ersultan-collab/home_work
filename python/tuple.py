@@ -1,6 +1,4 @@
-
-
-### Exercises: Level 1
+#Exercises: Level 1
 
 # 1. Create an empty tuple
 tpl = ()
@@ -64,7 +62,8 @@ print(lis)
 food_stuff_tp = ('banana', 'apple', 'peach', 'lemon', 'mango', 'tomato', 'cucumber', 'broccoli', 'potato', 'radish', 'Honey', 'Eggs', 'Meat', 'Milk', 'Caviar')
 food_lis = list(food_stuff_tp)
 food_lis.pop(len(food_stuff_tp) // 2)
-print(food_lis)
+food_tpl = tuple(food_lis)
+print(food_tpl)
 print(len(food_stuff_tp) // 2)
 
 # 1. Slice out the first three items and the last three items from food_staff_lt list
