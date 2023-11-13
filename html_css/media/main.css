@@ -171,24 +171,11 @@ hr{
   width: 60%;
 }
   }
- 
-  /* Desktop Styles */
-  @media only screen and (min-width: 1024px) {
-    body {
-      background-color: white; 
-      margin: 0;
-      padding: 0;
-      
-    }
-    .po{
-      display: none;
-    }
-  }
   
-  /* Tablet Styles */
+  /* Desktop Styles */
   @media only screen and (min-width: 1024px) and (max-width: 1500px) {
     
-    .header{
+  .header{
       margin-top: 20px;
       background-color: orange;
       width: 100%;
