@@ -17,6 +17,6 @@ student_dictionary = {'first_name':'Ersultan','last_name':'Marat','gender':'man'
 # student_dictionary.pop('first_name')
 # print(student_dictionary)
 
-del dog
-print(dog)
-print(student_dictionary)
+# del dog
+# print(dog)
+# print(student_dictionary)
