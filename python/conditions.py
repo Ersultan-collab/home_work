@@ -37,7 +37,7 @@
 # 4-tap
 # person={
 # 'first_name': 'Sabeeh',
-# 'last_name': 'Yet yeah',
+# 'last_name': 'Yetayeah',
 # 'age': 250,
 # 'country': 'Finland',
 # 'is_married': True,
@@ -58,6 +58,4 @@
 #     print('He is not a front-end developer')
 
 # if person['is_married'] and person['country'] == 'Finland':
-#     print(f"{person['first_name']} {person['last_name']} is married and lives in Finland.")
-# else:
-#     print(f"{person['first_name']} {person['last_name']} is either not married or does not live in Finland.")
+#     print(f"{person['first_name']} {person['last_name']} lives in Finland. He is married.")
