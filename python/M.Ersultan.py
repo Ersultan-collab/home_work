@@ -83,15 +83,6 @@
 # 14-сұрақ:
 # Сізде қоймадағы заттардың санын көрсететін екі dictionary бар. Бірінші сөздікті екінші сөздіктегі мәндермен жаңартып, жаңартылған сөздікті басып шығаратын Python бағдарламасын жазыңыз.
 
-fruits = {'apple': 5, 'banana': 3}, {'banana': 2, 'orange': 4}
-fruit = ['banana']
-
-for fruit in fruit:
-    if fruit in fruit:
-       fruits [fruit] += 1
-    else: 
-       fruits [fruit] = 1
-print(fruits)
 # # Example:
 # Output: {'apple': 5, 'banana': 5, 'orange': 4}
 
