@@ -17,7 +17,7 @@
 //     console.log(`Бұл жұмыс күні`)
 // }
 
-// let g = 9.8
+// const g = 9.8
 // let m = 60
 // let F = m * g
 // console.log(`${m} * ${g} = ${F}`)
