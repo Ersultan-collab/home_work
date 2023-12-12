@@ -23,4 +23,4 @@
 // console.log(`${m} * ${g} = ${F}`)
 
 // let temperature = 36.6
-// console.log(`${temperature} * ${9.5} + ${32} = ${temperature * 9/5 + 32}`)
+// console.log(`${temperature} * ${9/5} + ${32} = ${temperature * 9/5 + 32}`)
