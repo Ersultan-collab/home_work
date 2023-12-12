@@ -93,7 +93,7 @@
 # fruits =  ['lychee', 'apple', 'banana', 'lemon', 'orange', 'grape', 'lime']
 # fruits_2 = []
 # for i in fruits:
-#     if "l" in str(i[0]):
+#     if "l" in i[0]:
 #         fruits_2.append(i)
 # print(fruits_2)
 
