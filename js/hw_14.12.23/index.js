@@ -8,8 +8,8 @@
 // console.log(challenge.substring(0,5))
 // console.log(challenge.substring(0,2))
 // console.log(challenge.includes('Script'))
-// let text = '30, Days, Of, JavaScript'
-// console.log(text.split(','))
+// let text = '30 Days Of JavaScript'
+// console.log(text.split(' '))
 // console.log(it.split(','))
 // console.log(challenge.replace('JavaScript', 'Python'))
 // console.log(challenge.charAt(15))
@@ -64,8 +64,6 @@
 
 // let str = 'You cannot end a sentence with because because because is a conjunction'
 // console.log(str.match(/because/gi).length)
-
-
 
 
 // console.log(
