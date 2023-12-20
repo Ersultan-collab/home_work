@@ -152,7 +152,7 @@
 // console.log(x || (!(y || z)))// false
 // // y || z: true || false = true
 // // !(y || z): !true = false
-// // x || (!(y || z)): false || false = false
+// // x || (!(y || z)): false or false = false
 
 
 
