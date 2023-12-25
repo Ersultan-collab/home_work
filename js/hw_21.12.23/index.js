@@ -568,3 +568,8 @@
 //     : minutes
 
 // console.log(`${years}-${month}-${days} ${hour}:${minutes}`)
+
+// let date = new Date("2015-7-15")
+// let date1 = new Date("2018-4-3")
+// let date_result = date.getTime() - date1.getTime()
+// console.log(Math.round(date_result / (1000 * 60 * 60 * 24 * 7)))
