@@ -1,9 +1,10 @@
 // let age = prompt('Enter your age: ')
 // if (age >= 18){
-//     console.log('You are old enough to drive')
+//     console.log(`You are ${age} old enough to drive`)
 // }else{
 //     console.log(`You are left with ${18 - age} years to drive.`)
 // }
+
 
 
 // let my_age = 18
@@ -15,6 +16,7 @@
 // }else{
 //     console.log(`You are ${my_age - your_age} years younger than me`)
 // }
+
 
 
 
@@ -30,6 +32,8 @@
 // }
 
 
+
+
 // let number = prompt('Enter number: ')
 
 // if (number % 2 === 0){
@@ -37,6 +41,7 @@
 // }else{
 //     console.log(`${number} is an odd number.`)
 // }
+
 
 
 // let grades = Number(prompt('Enter your grades: '))
@@ -59,6 +64,7 @@
 // else{
 //     console.log('Please write numbers from 0 to 100.')
 // }
+
 
 
 // let month = prompt('Enter month: ')
@@ -104,7 +110,7 @@
 //     console.log('Invalid month.');
 // }
 
-
+    
 
 // let year = Number(prompt('Enter year: '))
 
@@ -112,4 +118,5 @@
 //     console.log('leap year')
 // }else{
 //     console.log('not leap year')
-// }
+// } 
+
