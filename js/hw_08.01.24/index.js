@@ -27,9 +27,8 @@
 //     ######
 //     #######
 
-// let str = ''
 // for(let i = 1; i <= 7; i++){
-//     console.log(str += '#')
+//     console.log('#'.repeat(i))
 // }
 
 // Use loop to print the following pattern:
@@ -66,8 +65,9 @@
 //  9    81    729
 //  10   100   1000
 
+// console.log('i i^2 i^3')
 // for(let num = 0; num <= 10; num++){
-//      console.log(`${num}  ${num**2}  ${num**3}`)
+//      console.log(`${num}  ${num**2}   ${num**3}`)
 // }
 
 // Используйте цикл for для итерации от 0 до 100 и вывода только четных чисел
@@ -85,13 +85,7 @@
 // Используйте цикл for для итерации от 0 до 100 и вывода только простых чисел
 
 // for(let i = 2; i <= 100; i++){
-//     for(let j = 2; j <= i; j++){
-//         if(i % j === 0){
-//             console.log(j)
-//         }else{
-//             continue
-//         }
-//     }
+//     if()
 // }
 
 // Используйте цикл for для итерации от 0 до 100 и вывода суммы всех чисел.
@@ -100,6 +94,8 @@
 //     num += i
 // }
 // console.log(`The sum of all numbers from 0 to 100 is ${num}.`)
+
+
 // let sum_i = 0
 // for(i = 0; i <= 100; i+=2){
 //     sum_i += i
@@ -110,3 +106,4 @@
 //     sum_j += (j + 1)
 // }
 // console.log(`The sum of all evens from 0 to 100 is ${sum_i}. And the sum of all odds from 0 to 100 is ${sum_j}.`)
+
