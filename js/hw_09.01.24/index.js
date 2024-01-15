@@ -192,23 +192,60 @@
 // console.log(new_nom.join('-'))
 
 // let kz_nom = [700, 701, 705, 706, 776, 747, 777, 771, 778]
-// let new_nom = ['+7',]
-// let nem = ''
-// for (let i = 0; i < 1; i++){
-//     new_nom.push(kz_nom[Math.floor(Math.random() * kz_nom.length)])
-// }
+// let new_nom = `+7 ${new_nom.push(kz_nom[Math.floor(Math.random() * kz_nom.length)])} `
+
+
 // for(let i = 0; i < 3; i++){
-//     let ko = Math.round(Math.random() * 9)
-//     nem += ko
+//    for(let j = 0; j < 4; j++){
+//         new_nom += Math.round(Math.random() * 9)
+//          if(i < 2){
+//             new_nom += '-'
+//         }
+//     }
+    
 // }
-// new_nom.push(nem)
-// let mrn = ''
-// for(let i = 0; i < 4; i++){
-//     let kr = Math.round(Math.random() * 9).toString()
-//     mrn += kr
+// console.log(new_nom)
+
+let kz_nom = ['700', '701', '705', '706', '776', '747', '777', '771', '778'];
+let new_nom = `+7 ${kz_nom[Math.floor(Math.random() * kz_nom.length)]} `;
+
+for (let i = 0; i < 7; i++) {
+        new_nom += Math.round(Math.random() * 9);
+    if (i === 2) {
+        new_nom += '-';
+    }
+}
+
+console.log(new_nom);
+
+// let kz_nom = [700, 701, 705, 706, 776, 747, 777, 771, 778]
+// for(let i = 0; i < 1; i++){
+//     let nom = `+7 (${kz_nom[Math.floor(Math.random() * kz_nom.length)]}) `
+//         for(let j = 0; j < 7; j++){
+//             nom += Math.floor(Math.random() * 9)
+//             if(j === 2){
+//                 nom += '-'
+//             }
+            
+//         }
+//     console.log(nom)    
 // }
-// new_nom.push(mrn)
-// console.log(new_nom.join('-'))
+
+// // Генерация 5 случайных казахстанских номеров телефонов
+// for (let i = 0; i < 1; i++) {
+//     let phoneNumber = '+7 (7' + Math.floor(Math.random() * 10) + Math.floor(Math.random() * 10) + ') ';
+    
+//     for (let j = 0; j < 7; j++) {
+//         phoneNumber += Math.floor(Math.random() * 10);
+//         if (j === 2 || j === 4) {
+//             phoneNumber += '-';
+//         }
+//     }
+
+//     console.log(phoneNumber);
+// }
+
+
 // let hsl = []
 // for(let i = 0; i < 1; i++){
 //     let hsl_color1 = Math.round(Math.random() * 360)
