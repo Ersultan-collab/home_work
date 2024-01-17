@@ -4,13 +4,13 @@
 // }
 // console.log(findMax(40, 10, 30))
 
-function printArray(arr){
-    for(let i = 0; i < arr.length; i++){
-        console.log(arr[i])
-    }
-}
-let array = [12, 'dihehf', 20]
-console.log(printArray(array))
+// function printArray(arr){
+//     for(let i = 0; i < arr.length; i++){
+//         console.log(arr[i])
+//     }
+// }
+// let array = [12, 'dihehf', 20]
+// console.log(printArray(array))
 
 // function showDateTime(){
 //     let data = new Date()

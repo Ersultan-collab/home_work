@@ -302,10 +302,10 @@
 // }
 // console.log(reverse_contries)
 
-// let numbers = [87, 42, 9, 55, 76, 31, 68, 14, 93, 20] 
-// let reversedNumbers = [] 
-// for(let i = numbers.lendth - 1; i >= 0; i--){
-//     reversedNumbers.push(numbers[i]) 
+let numbers = [87, 42, 9, 55, 76, 31, 68, 14, 93, 20] 
+let reversedNumbers = [] 
+for(let i = numbers.lendth - 1; i >= 0; i--){
+    reversedNumbers.push(numbers[i]) 
     
-// } 
-// console.log(reversedNumbers)
+} 
+console.log(reversedNumbers)
