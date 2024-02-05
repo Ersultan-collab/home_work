@@ -21,6 +21,7 @@
 // let ahu = ['ersultan', 'maratov','hgrughrig', 'joepjfpeoj']
 // console.log(capitalizedarray(ahu))
 
+
 //tap--2
 // let additem = (item) => {
 //     let arr = [item]
@@ -34,7 +35,6 @@
 //     return arr
 // }
 // console.log(additem(84))
-
 
 
 //tap--3
