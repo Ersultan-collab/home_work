@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: start;
+            gap: 0px;
+            width: 80%;
+            margin: auto;
+        }
+        .section-div1{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .section-div2{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            border-radius: 20px;
+            width: 35%;
+            box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.17);
+            padding: 20px 10px;
+            position: sticky;
+            top: 1px;
+        }
+    .buttons-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .section-buuton{
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        border: none
+    }
+    .section-buuton2{
+        padding: 3px;
+        width: 50px;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ion{
+        width: 30px;
+        height: 30px;
+    }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="section-div1">
+            <img src="" alt="" class="section-img" height="600px">
+            <img src="" alt="" class="section-img" height="600px">
+            <img src="" alt="" class="section-img" height="600px">
+            <img src="" alt="" class="section-img" height="600px">
+        </div>
+        <div class="section-div2">
+            <div>
+                <h1 class="section-div2-text1"></h1>
+                <p class="section-div2-text2"></p>
+            </div>
+            <p class="section-div2-price"></p>
+            <div class="buttons-div">
+                <button class="section-buuton">Добавить в корзину</button>
+                <button class="section-buuton2"><ion-icon name="heart-outline" class="ion"></ion-icon></button>
+            </div>
+        </div>
+    </section>
+<script src="lamoda.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
