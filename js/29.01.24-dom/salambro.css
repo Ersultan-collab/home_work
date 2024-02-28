@@ -92,6 +92,7 @@ header::before {
     border: 1px solid white;
     height: 80px;
     width: 80px;
+    background-color: white;
 }
 
 .section-two-banner h1{
@@ -111,10 +112,12 @@ header::before {
     margin-left: 30px;
     background-color: #FFC244FF;
     padding: 10px;
-    width: 200px;
+    width:250px;
     height: 0px;
     border-radius: 5px;
 }
+
+
 
 .section-two-icons{
     display: flex;

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Движущийся фон</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #background {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+</style>
+</head>
+<body>
+    <img id="background" src="https://th.bing.com/th/id/R.d2e494d86af593d3e750145070ad61c6?rik=86%2foillY0yx8Ng&riu=http%3a%2f%2fdigitalspyuk.cdnds.net%2f16%2f42%2f1600x800%2flandscape-1476795948-rdr2-digitalposter.jpg&ehk=WPXTJG%2bDoXztmVk1TpJlE4HNuWca2GNfiPUVqE8%2fhsQ%3d&risl=&pid=ImgRaw&r=0" alt="Фоновое изображение">
+    <script>
+        document.addEventListener('mouseover', function(e) {
+            var background = document.getElementById('background');
+            var mouseX = e.clientX / window.innerWidth;
+            var mouseY = e.clientY / window.innerHeight;
+            background.style.transform = 'translate(-' + mouseX * 50 + 'px, -' + mouseY * 50 + 'px)';
+        });
+    </script>
+</body>
+</html>

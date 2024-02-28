@@ -3,83 +3,87 @@ console.log(url)
 
 let id = url.split('id=')[1]
 
-let cards = [
+const data = [
     {
         id: 1,
+        oldPrice: 119900,
+        price: 49900,
         img: 'https://a.lmcdn.ru/img600x866/M/P/MP002XM0MVIH_12351054_1_v1_2x.jpg',
-        price: '160 850 ₸',
-        text_one: 'Winterra',
-        text: 'Куртка утепленная',
+        brand: "Vivaldi",
+        category: "Пальто"
     },
-
     {
         id: 2,
         img: 'https://a.lmcdn.ru/img600x866/M/P/MP002XM0MYUB_19878812_1_v1.jpeg',
-        price: '14 250 ₸',
-        text_one: 'Finn Flare',
-        text: 'Олимпийка',
+        price: 160850,
+        brand: "Winterra",
+        category: "Куртка утепленная"
     },
-
     {
         id: 3,
         img: 'https://a.lmcdn.ru/img600x866/M/P/MP002XM256FI_21521300_1_v1_2x.jpg',
-        price: '141 070 ₸',
-        text_one: "Marc O'Pol",
-        text: 'Пуховик',
+        price: 54000,
+        brand: "Tom Tailor",
+        category: "Джинсы"
     },
-
     {
         id: 4,
         img: 'https://a.lmcdn.ru/img600x866/R/T/RTLACX556101_21521814_1_v1_2x.jpg',
-        price: '62 900 ₸',
-        text_one: "adidas",
-        text: 'Костюм спортивный',
+        oldPrice: 32490, 
+        price: 14250,
+        brand: "Finn Flare",
+        category: "Олимпийка"
     },
-
     {
         id: 5,
         img: 'https://a.lmcdn.ru/img600x866/M/P/MP002XM0V7IF_20626479_1_v1_2x.jpg',
-        price: '49 900 ₸',
-        text_one: "Vivaldi",
-        text: 'Пальто',
+        oldPrice: 282200,
+        price: 141070,
+        brand: "Marc O'Polo",
+        category: "Пуховик"
     },
-
     {
         id: 6,
         img: 'https://a.lmcdn.ru/img600x866/M/P/MP002XW171K8_20402833_1_v1.jpeg',
-        price: '8 950 ₸',
-        text_one: "Colin's",
-        text: 'Брюки',
+        price: 62900,
+        brand: "adidas",
+        category: "Костюм спортивный"
     },
-
     {
         id: 7,
         img: 'https://a.lmcdn.ru/img600x866/M/P/MP002XM0SB6D_21287631_1_v1.jpeg',
-        price: '34 875 ₸',
-        text_one: "Finn Flare",
-        text: 'Пуховик',
+        oldPrice: 14950,
+        price: 8950,
+        brand: "Colin's",
+        category: "Брюки"
     },
-    
     {
         id: 8,
         img: 'https://a.lmcdn.ru/img600x866/R/T/RTLADD722701_21823405_1_v1_2x.jpg',
-        price: '55 700 ₸',
-        text_one: "Moaxsport",
-        text: 'Пуховик Igora light',
-    },
-]
+        oldPrice: 113990,
+        price: 34875,
+        brand: "Finn Flare",
+        category: "Пуховик",
+        free: true
+    }
+  ];
 
-let lam = cards.find(moda => moda.id == id)
+let lam = data.find(moda => moda.id == id)
 console.log(lam)
 
 let img = document.querySelectorAll('.section-img')
 img.forEach(images => images.src = lam.img)
 
 let h1 = document.querySelector('.section-div2-text1')
-h1.textContent = lam.text_one
+h1.textContent = lam.brand
 
 let p = document.querySelector('.section-div2-text2')
-p.textContent = lam.text
+p.textContent = lam.category
+
+let span = document.querySelector('.old-price')
+span.textContent = lam.oldPrice
 
 let price = document.querySelector('.section-div2-price')
 price.textContent = lam.price
+
+
